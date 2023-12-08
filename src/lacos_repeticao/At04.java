@@ -46,7 +46,7 @@ public class At04 {
 			if ((identidadeGenero == 1 || identidadeGenero == 4) && pessoaDesenvolvedora == 2) {
 				totalMulherfrontend++;
 			}
-			if ((identidadeGenero == 2 || identidadeGenero == 5) && pessoaDesenvolvedora == 3) {
+			if ((identidadeGenero == 2 || identidadeGenero == 5) && pessoaDesenvolvedora == 3  && idade > 40) {
 				totalHomemMobile++;
 			}
 			if (identidadeGenero == 3 && pessoaDesenvolvedora == 2 && idade < 30) {
