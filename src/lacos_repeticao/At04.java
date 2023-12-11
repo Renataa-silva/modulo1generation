@@ -31,12 +31,9 @@ public class At04 {
 			System.out.println("5- Homem Trans ");
 			System.out.println("6- Outros ");
 			identidadeGenero = leia.nextInt();
+			
 			System.out.println(" Pessoa Desenvolvedora");
-<<<<<<< HEAD
 			System.out.println("1- Backend ");
-=======
-			System.out.println("1- Backend");
->>>>>>> 376c3efb9095f0693d12dd284be4f15b017c3049
 			System.out.println("2- Frontend ");
 			System.out.println("3- Mobile ");
 			System.out.println("4- FullStack ");
