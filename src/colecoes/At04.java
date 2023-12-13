@@ -7,8 +7,8 @@ import java.util.Set;
 public class At04 {
 
 	public static void main(String[] args) {
-		
-		Set <Integer> numeros = new HashSet<Integer>();
+
+		Set<Integer> numeros = new HashSet<Integer>();
 		numeros.add(2);
 		numeros.add(5);
 		numeros.add(1);
@@ -20,24 +20,19 @@ public class At04 {
 		numeros.add(10);
 		numeros.add(6);
 		int numero = 0;
-		
+
 		Scanner leia = new Scanner(System.in);
-		
+
 		System.out.println("Digite o número que você deseja encontrar: ");
 		numero = leia.nextInt();
-		
-		
-		if(numeros.contains(numero)) {
+
+		if (numeros.contains(numero)) {
 			System.out.println("O número " + numero + " foi encontrado! ");
-			
-			
-		}else {
+
+		} else {
 			System.out.println("O número " + numero + " não foi encontrado!");
 		}
-			
-		
-		
-		
+
 	}
 
 }

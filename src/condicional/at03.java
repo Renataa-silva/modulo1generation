@@ -2,7 +2,7 @@ package condicional;
 
 import java.util.Scanner;
 
-public class at3 {
+public class at03 {
 
 	public static void main(String[] args) {
 		int idade;

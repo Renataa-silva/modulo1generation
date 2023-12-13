@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class At02 {
 
 	public static void main(String[] args) {
-		
+
 		ArrayList<Integer> numeros = new ArrayList<Integer>();
 		numeros.add(2);
 		numeros.add(5);
@@ -21,19 +21,16 @@ public class At02 {
 		int numero = 0;
 
 		Scanner leia = new Scanner(System.in);
-		
+
 		System.out.println("Digite o número que você deseja encontrar: ");
 		numero = leia.nextInt();
-		
-		
-		if(numeros.contains(numero)) {
+
+		if (numeros.contains(numero)) {
 			System.out.println("O número " + numero + " está localizado na posição: " + numeros.indexOf(numero));
-			
-			
-		}else {
+
+		} else {
 			System.out.println("O número " + numero + " não foi encontrado!");
 		}
-			
 
 	}
 
